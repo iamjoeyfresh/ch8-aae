@@ -1,0 +1,56 @@
+/*
+Author: Joseph Sutton
+Date: 05/09/24
+File Name: styles08.css
+*/
+
+/* Style for body specifies a background color */
+body {
+	background: linear-gradient(to top right, #fff 0%, #6699ff 100%) no-repeat fixed center;
+	font-family: Geneva, Arial, sans-serif;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Style for table elements */
+table {
+	background-color: #ffe5dc;
+	width: 80%;
+	margin: 0px auto;
+	border: 10px solid #fd4d0c;
+	box-shadow: 20px 20px 20px #792101;	
+}
+
+table,
+tr,
+th,
+td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+th {
+	color: #fff;
+	background-color: #a22c02;
+	border: 3px solid #fe9772;
+}
+
+td {
+	text-align: left;
+	border: 3px solid #a22c02;
+}
+
+tr:nth-child(odd) {
+	background-color: #fe9772;
+}
+
+/* Style for caption element */
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
